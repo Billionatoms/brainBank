@@ -1,0 +1,35 @@
+{
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "defaultViewMode": "source",
+  "promptDelete": true,
+  "showLineNumber": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "./",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 50
+  },
+  "tabSize": 2,
+  "openBehavior": "daily",
+  "newFileFolderPath": "05 - Fleeting",
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:toggle-checklist-status"
+  ],
+  "trashOption": "local",
+  "mobilePullAction": "ink:create-drawing-section"
+}

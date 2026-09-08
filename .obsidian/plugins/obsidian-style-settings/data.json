@@ -1,0 +1,12 @@
+{
+  "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-custom-dt",
+  "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-two-tone-and-border-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-mint-dt",
+  "encore-settings@@theme-dark": "encore-theme-dark-obsidian",
+  "encore-settings@@encore-translucency": true,
+  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@encore-disable-grain": true,
+  "encore-settings@@theme-light": "encore-theme-light",
+  "encore-settings@@encore-translucency-strength": 0.35,
+  "encore-settings@@blur-amount": "encore-blur-less"
+}

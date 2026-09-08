@@ -1,0 +1,23 @@
+# --- Obsidian per-user state (regenerates on open; leaks note paths) ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/obsidian-completr/scanned_words.txt
+.obsidian/plugins/obsidian-dictionary-plugin/cache.json
+
+# Obsidian local trash — treat as deleted
+.trash/
+
+# Plugin caches / generated indexes
+.smart-env/
+.obsidian/plugins/*/.hotreload
+
+# --- OS noise ---
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# --- Editor noise ---
+*.swp
+*~

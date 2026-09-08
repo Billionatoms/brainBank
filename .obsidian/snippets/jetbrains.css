@@ -1,0 +1,11 @@
+body {
+    /* Changes your actual notes/reading view */
+    --font-text: 'jetbrainsmono-regular', "JetBrains Mono", sans-serif !important;
+
+    /* Changes the UI (folders, settings, menus) */
+    --font-interface: 'jetbrainsmono-regular', "JetBrains Mono", sans-serif !important;
+
+    /* Changes code blocks and YAML frontmatter */
+    --font-monospace: 'jetbrainsmono-regular', "JetBrainsMono Nerd Font Mono", monospace
+!important;
+}

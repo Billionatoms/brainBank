@@ -1,0 +1,33 @@
+{
+  "data_version": 2,
+  "command_timeout": 5,
+  "templates_folder": "99 - Meta/00 - Templates",
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
+  "auto_jump_to_cursor": true,
+  "jump_to_cursor_after_file_name": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "folder_templates": [
+    {
+      "folder": "06 - Notes/Daily",
+      "template": "99 - Meta/00 - Templates/(TEMPLATE) Daily.md"
+    },
+    {
+      "folder": "06 - Notes/Weekly",
+      "template": "99 - Meta/00 - Templates/(TEMPLATE) Weekly.md"
+    }
+  ],
+  "file_templates": [],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": true,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": [],
+  "enable_ribbon_icon": true,
+  "trigger_on_file_creation": false,
+  "enable_system_commands": false,
+  "enable_folder_templates": true,
+  "enable_file_templates": false
+}
