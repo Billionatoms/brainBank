@@ -89,4 +89,4 @@ Add one line per MOC as you create them.
 
 ---
 
-Vault guide: [[README]] · Full conventions: [[CLAUDE]]
+Vault guide: [[README]]

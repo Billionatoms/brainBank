@@ -10,7 +10,7 @@ community plugins, themes, snippets, fonts and hotkeys, and the Templater
 templates that drive daily, weekly and meeting notes.
 
 Open the folder with **Obsidian → Open folder as vault**, then start at
-[[Home]]. The full conventions live in [[CLAUDE]].
+[[Home]].
 
 ## Structure
 
@@ -23,7 +23,7 @@ Open the folder with **Obsidian → Open folder as vault**, then start at
 05 - Fleeting/          scratch; where new notes land by default
 06 - Notes/             Daily/ Weekly/ Meetings/
 07 - Archives/          retired material
-99 - Meta/              templates, instructions, the Claude skill
+99 - Meta/              templates and vault plumbing
 ```
 
 Notes are filed by **what they are for**, not by topic. Topic lives in tags,
@@ -75,8 +75,6 @@ week to start on Monday (*Calendar → Start week on*).
 One example note sits in each folder to show the frontmatter and house style,
 plus a sample daily, weekly and meeting note so the Dataview and Tasks queries
 on [[Home]] have something to display. Delete them once you have your own.
-
-Empty folders carry a `.gitkeep` so the structure survives git and zip.
 
 ## Not included
 
