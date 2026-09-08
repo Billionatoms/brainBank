@@ -80,3 +80,29 @@ on [[Home]] have something to display. Delete them once you have your own.
 
 Personal notes, the workspace layout, the recent-files list and plugin caches.
 Obsidian regenerates the last three on first open.
+
+## Credits
+
+This vault started from
+**[CyanVoxel's Obsidian Vault Template](https://github.com/CyanVoxel/Obsidian-Vault-Template)**
+and owes it the folder philosophy and a good deal of its look. Seven of the CSS
+snippets under `.obsidian/snippets/` are CyanVoxel's work, redistributed here
+unchanged, along with the CSS-class reference notes in
+`99 - Meta/Preloaded Classes/`. Newer versions of those snippets live in their
+own repositories, linked from that template's README — worth pulling from the
+source rather than from here.
+
+Go look at the original. If you like what this vault does, a lot of the credit
+belongs there.
+
+## Licence
+
+The MIT License in [`LICENSE`](LICENSE) covers the original content here: the
+folder structure, templates, documentation and Obsidian settings.
+
+It does **not** cover the bundled third-party material — CyanVoxel's snippets,
+the 31 community plugins under `.obsidian/plugins/`, the themes and the fonts.
+Those keep their own copyright and licences, listed in [`NOTICE`](NOTICE).
+
+If you would rather not have redistributed plugin code in your own fork, delete
+`.obsidian/plugins/` and reinstall from Obsidian's community plugin browser.

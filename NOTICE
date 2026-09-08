@@ -1,0 +1,92 @@
+NOTICE
+======
+
+The MIT License in LICENSE covers the original content of this vault: the
+folder structure, note templates, documentation and Obsidian configuration
+authored by the repository owner.
+
+It does NOT cover the third-party material listed below, which is
+redistributed here for convenience and remains under its own copyright and
+licence.
+
+
+-------------------------------------------------------------------------
+CyanVoxel Obsidian Vault Template
+-------------------------------------------------------------------------
+
+This vault's structure and several of its CSS snippets derive from:
+
+    https://github.com/CyanVoxel/Obsidian-Vault-Template
+
+Files under `.obsidian/snippets/`:
+
+    Colored Sidebar Items.css
+    CyanVoxel's General Tweaks.css
+    Daily Note Themes.css
+    Japanese Font Support.css
+    Minecraft.css
+    Notebook Backgrounds.css
+    Runescape.css
+
+...together with the CSS-class reference notes under
+`99 - Meta/Preloaded Classes/`, which document the classes those snippets
+provide.
+
+Updated versions of the individual snippets are published in their own
+repositories, linked from the template's README.
+
+    MIT License
+
+    Copyright (c) 2024 Travis Abendshien
+
+    Permission is hereby granted, free of charge, to any person obtaining a
+    copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+-------------------------------------------------------------------------
+Obsidian community plugins
+-------------------------------------------------------------------------
+
+`.obsidian/plugins/` contains 31 third-party Obsidian community plugins,
+redistributed unmodified so the vault works immediately on clone. Each
+remains the copyright of its own author, under its own licence. Among them:
+
+    Apache-2.0   Dataview, Style Settings, TikZJax
+    MIT          Emoji Toolbar, and others
+
+Several bundle further dependencies with their own terms, including React
+and Fraction.js.
+
+Obsidian does not install plugins' LICENSE files, so those terms are not
+reproduced here. Each plugin's author and source repository are recorded in
+`.obsidian/plugins/<plugin>/manifest.json`.
+
+To use this vault without redistributed plugin code, delete
+`.obsidian/plugins/` and reinstall from Obsidian's community plugin browser.
+
+
+-------------------------------------------------------------------------
+Obsidian themes and fonts
+-------------------------------------------------------------------------
+
+`.obsidian/themes/` contains the third-party themes Apex, Encore, Minimal
+and Vanilla AMOLED Color, each under its own licence and copyright.
+
+`.obsidian/fonts/` contains JetBrains Mono, licensed under the SIL Open Font
+License 1.1.
