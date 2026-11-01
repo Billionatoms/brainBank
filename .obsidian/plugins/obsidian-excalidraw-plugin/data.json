@@ -50,7 +50,7 @@
   "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
-  "desktopUIMode": "tray",
+  "desktopUIMode": "full",
   "tabletUIMode": "tray",
   "phoneUIMode": "compact",
   "iframeMatchExcalidrawTheme": true,
@@ -62,7 +62,6 @@
   "penModeDoubleTapEraser": true,
   "penModeSingleFingerPanning": true,
   "penModeCrosshairVisible": true,
-  "panWithRightMouseButton": false,
   "renderImageInMarkdownReadingMode": false,
   "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
@@ -159,6 +158,7 @@
       }
     }
   },
+  "markdownImageDeletionPreference": "ask",
   "scriptEngineSettings": {
     "Downloaded/Add Next Step in Process": {
       "Starting arrowhead": {
@@ -205,7 +205,7 @@
   },
   "autostartScripts": {},
   "autostartScriptFailures": {},
-  "previousRelease": "2.27.2",
+  "previousRelease": "2.29.0",
   "showReleaseNotes": true,
   "useDeclarativeSettings": true,
   "excalidrawMasteryPromoCollapsed": false,
@@ -1166,6 +1166,7 @@
     "margin": "normal"
   },
   "disableContextMenu": false,
+  "panWithRightMouseButton": false,
   "onceOffGPTVersionReset": true,
   "autosave": true,
   "autosaveInterval": 15000,

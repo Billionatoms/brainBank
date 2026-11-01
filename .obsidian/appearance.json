@@ -4,15 +4,16 @@
   "cssTheme": "Encore",
   "theme": "obsidian",
   "baseFontSizeAction": true,
-  "textFontFamily": "Source Code Pro",
-  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
-  "monospaceFontFamily": "Source Code Pro",
+  "textFontFamily": "Fira Sans",
+  "interfaceFontFamily": "Fira Sans",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "enabledCssSnippets": [
     "Colored Sidebar Items",
     "CyanVoxel's General Tweaks",
     "Daily Note Themes",
-    "jetbrains",
     "Notebook Backgrounds",
     "Runescape"
-  ]
+  ],
+  "nativeMenus": false,
+  "showRibbon": true
 }

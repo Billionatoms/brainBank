@@ -21,7 +21,7 @@ Open the folder with **Obsidian → Open folder as vault**, then start at
 03 - Resources/         notes about a source
 04 - Permanent/         distilled evergreen notes
 05 - Fleeting/          scratch; where new notes land by default
-06 - Notes/             Daily/ Weekly/ Meetings/
+06 - Notes/             Daily/ Weekly/ Meetings/ Tasks/
 07 - Archives/          retired material
 99 - Meta/              templates and vault plumbing
 ```
@@ -62,18 +62,55 @@ Three things that look cosmetic but are not:
 The weekly template derives its Mon–Fri range from the filename, so it needs the
 week to start on Monday (*Calendar → Start week on*).
 
+## Tasks
+
+Tasks live in two places, by size.
+
+- **Tracked tasks** are [TaskNotes](https://tasknotes.dev/) notes in
+  `06 - Notes/Tasks/`, one note per task. Anything with a deadline, or work over
+  more than one day, goes here. Open them with *TaskNotes: Open tasks view*; the
+  views are the `.base` files in `Tasks/Views/`.
+- **Small same-day items** stay as checkboxes under `## Tasks` in the daily note.
+
+A meeting action that needs tracking is written in the meeting note as a link to
+its task note, with no checkbox. Keep **one state per task**: a task tracked in
+`06 - Notes/Tasks/` has its status there and nowhere else.
+
+The TaskNotes HTTP API and MCP server are off. If you turn them on, the plugin
+keeps an auth token in `.obsidian/plugins/tasknotes/data.json`, as it does for
+any calendar subscription URL, so don't commit that file afterwards.
+
+## Other note templates
+
+Insert these with Templater; no folder applies them automatically.
+
+- `(TEMPLATE) Literature note` for a paper, talk or other source.
+- `(TEMPLATE) Topic note` for working through a subject across several sources.
+- `(TEMPLATE) Unique` for everything else.
+
+## Reviews
+
+- **Weekly, about 15 minutes.** Walk the week's daily notes, promote what's worth
+  keeping, and write the summary in the weekly note. Stop at 15 minutes; a rough
+  review beats a skipped one.
+- **Monthly.** Drain `05 - Fleeting/`: promote it, archive it, or leave it if
+  you're still gathering. Move finished projects to `07 - Archives/`.
+- **Quarterly.** Check that each Map of Content still reflects reality, and that
+  every non-trivial note is reachable from one.
+
 ## First run
 
 1. Open the folder as a vault. Obsidian will ask you to trust the bundled
    community plugins; accept, or enable them one at a time under *Settings →
    Community plugins*.
 2. *Settings → Appearance* — the theme is **Encore** with several CSS snippets
-   on. Fonts load from `.obsidian/fonts/` via Custom Font Loader. Change any of
-   it.
+   on. It expects **Fira Sans** and **JetBrainsMono Nerd Font** to be installed
+   on your system and falls back to Obsidian's defaults if they aren't. Change
+   any of it.
 3. Search the vault for `<` to find the placeholders left for you to fill in.
 
 One example note sits in each folder to show the frontmatter and house style,
-plus a sample daily, weekly and meeting note so the Dataview and Tasks queries
+plus a sample daily, weekly, meeting and task note so the Dataview and Tasks queries
 on [[Home]] have something to display. Delete them once you have your own.
 
 ## Not included
@@ -101,7 +138,7 @@ The MIT License in [`LICENSE`](LICENSE) covers the original content here: the
 folder structure, templates, documentation and Obsidian settings.
 
 It does **not** cover the bundled third-party material — CyanVoxel's snippets,
-the 31 community plugins under `.obsidian/plugins/`, the themes and the fonts.
+the 25 community plugins under `.obsidian/plugins/` and the themes.
 Those keep their own copyright and licences, listed in [`NOTICE`](NOTICE).
 
 If you would rather not have redistributed plugin code in your own fork, delete

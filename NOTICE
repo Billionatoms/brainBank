@@ -63,7 +63,7 @@ repositories, linked from the template's README.
 Obsidian community plugins
 -------------------------------------------------------------------------
 
-`.obsidian/plugins/` contains 31 third-party Obsidian community plugins,
+`.obsidian/plugins/` contains 25 third-party Obsidian community plugins,
 redistributed unmodified so the vault works immediately on clone. Each
 remains the copyright of its own author, under its own licence. Among them:
 
@@ -82,11 +82,8 @@ To use this vault without redistributed plugin code, delete
 
 
 -------------------------------------------------------------------------
-Obsidian themes and fonts
+Obsidian themes
 -------------------------------------------------------------------------
 
 `.obsidian/themes/` contains the third-party themes Apex, Encore, Minimal
 and Vanilla AMOLED Color, each under its own licence and copyright.
-
-`.obsidian/fonts/` contains JetBrains Mono, licensed under the SIL Open Font
-License 1.1.

@@ -31,5 +31,6 @@
     "editor:toggle-checklist-status"
   ],
   "trashOption": "local",
-  "mobilePullAction": "ink:create-drawing-section"
+  "mobilePullAction": "ink:create-drawing-section",
+  "strictLineBreaks": false
 }

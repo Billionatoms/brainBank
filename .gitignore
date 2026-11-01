@@ -10,6 +10,8 @@
 
 # Plugin caches / generated indexes
 .smart-env/
+.handwriting/
+.claudian/
 .obsidian/plugins/*/.hotreload
 
 # --- OS noise ---
